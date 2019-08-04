@@ -212,6 +212,9 @@ a:hover{
 }
 
 @media (max-width: 745px){
+    .navbar{
+        height: auto;
+    }
     .container-trabalhos{
         flex-wrap: wrap;
     }
