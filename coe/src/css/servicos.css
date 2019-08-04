@@ -1,0 +1,17 @@
+.texto-serv{
+    padding: 5%;    
+}
+.texto-serv p{
+    padding: 0;
+    font-size: 12px;
+    border-top: 1px solid rgb(204, 202, 202);
+    padding-top: 5%;
+
+}
+.texto-serv h4{
+    text-align: center;
+    font-size: 16px;
+    color: #0CB8B6;
+    border-bottom: none;
+    font-weight: bold;
+}

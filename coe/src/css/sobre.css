@@ -1,0 +1,149 @@
+.bg-sobre{
+    margin-top: 5%;
+    background-image: url(../imagens/bg-contador.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px; 
+    align-items: center;
+    display: flex; 
+}
+.bg-sobre h3{
+    font-size:45px;
+    color: white;
+    margin: 0 10%;
+    font-weight: bold;
+}
+/* FORMULARIO SOBRE */
+.container-form-sobre{
+    margin-top: 5%;
+    padding: 5%;
+}
+.conteudo-form-sobre {
+    width: 500px;
+    height: 460px;
+    box-shadow: 0 0 10px 0px #888888;   
+    padding: 10px;
+    text-align: center;
+}
+.form-sobre{
+    width:100%;
+}
+.form-sobre input,textarea{
+    width: 75%;
+    margin: 10px 0;
+    padding: 5px;
+    background: white;
+    border: 1px solid rgb(180, 179, 179);
+
+}
+.form-sobre input{
+    height: 50px;
+}
+.form-sobre textarea{
+    height: 100px;
+}
+.container-btn-form-sobre{
+    background: none;
+    width: 75%;
+    text-align: left;
+    height: 50px;
+    border: none;
+    transition: all .2s ease-in;
+   
+}
+.conteudo-btn-form-sobre{
+    background: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    border: 2px solid #0CB8B6;
+    
+}
+.conteudo-btn-form-sobre a {
+    color: black !important;
+    font-weight: bold;
+  
+}
+
+.txt-icone-form-sobre{
+    padding-left: 20px;
+}
+
+.icone-form-sobre img{
+    width: 70px;
+    height: 70px;
+}
+
+.conteudo-form-sobre, .container-icone-form-sobre{
+    margin: 0 2%;
+}
+
+.icone-video-sobre img{
+    width: 100px;
+    height: 100px;
+}
+
+/* SEÇÃO DEPARTAMENTOS */
+.departamento{
+    width: 400px;
+    box-shadow: 0 0 5px 0px #888888;   
+    padding: 3%;
+    margin: 2% 1%;
+}
+.icone-departamento h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7% 0;   
+    border-bottom: 1px solid rgb(196, 194, 194);
+}
+.icone-departamento img{
+    width: 70px;
+    height: 70px;
+}
+.txt-departamento{
+    margin-top: 4%;
+}
+.txt-departamento h3{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.txt-departamento img{
+    margin-top: 1px;
+    width: 15px;
+    height: 15px;
+}
+
+/* mobile */
+
+@media (max-width:745px){
+    .container-form-sobre {
+        flex-wrap: wrap-reverse;
+    }
+    .icone-form-sobre{
+        flex-wrap: wrap;
+    }
+    .icone-form-sobre{
+        display: flex;
+        justify-content: center;
+        
+        text-align: center;
+    }
+    .container-icone-form-sobre{
+        width: 100% !important;
+    }
+    .icone-video-sobre{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .conteudo-departamentos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .departamento{
+        width: 75%;
+        
+    }
+}

@@ -1,0 +1,34 @@
+a{
+    text-decoration-color: none;
+}
+a:link{
+   text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+body{    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    color: #0CB8B6;
+}
+.navbar-toggler-icon{
+    background-image: url(../imagens/menu.svg);
+}
+.navbar{
+    padding: 1% 3%;
+    position: fixed;
+    background: white;
+    z-index: 999999999999;
+}
+.nav-item{
+    margin: 0 5%;
+}
+.nav-link{
+    color: #333434;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+#hovered{
+    color: #0CB8B6 !important;
+}

@@ -1,0 +1,455 @@
+/*PARTE ESQUERDA DO HEADER */ 
+.header-texto{
+    width: 30%;
+}
+.header-texto h3{
+    color: white;
+    font-size: 45px;
+}
+.header-texto p{
+    color: white;
+    font-size: 18px;
+}
+.header-texto h3 span{
+    font-size: 45px;
+}
+.container-btn-viewdetails{
+    background: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    border: 2px solid white;
+    transition: all .2s ease-in;
+    opacity: .8;
+  
+}
+.container-btn-viewdetails:hover{
+    opacity: 1;
+    background: white;
+    
+} .container-btn-viewdetails:hover>a{
+    color: black !important;
+}
+.container-btn-viewdetails a {
+    color: white !important;
+    font-weight: bold;
+
+}
+/* PARTE DO FORMULARIO DO HEADER */ 
+.container-form-header{
+    width: 100%;
+    background-image: url(../imagens/bg-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    padding: 5% ;
+}
+    .conteudo-form-header {
+        width: 500px;
+        height: 460px;
+        background-color: rgba(219, 214, 214, 0.7);
+
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+.form-header{
+    width:100%;
+}
+.form-header input,textarea{
+    width: 75%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+    border: none;
+}
+.form-header input{
+    height: 50px;
+}
+.form-header textarea{
+    height: 100px;
+}
+.container-btn-form{
+    background: none;
+    width: 75%;
+    text-align: left;
+    height: 50px;
+    border: none;
+    transition: all .2s ease-in;
+   
+}
+.conteudo-btn-form{
+    background: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    border-radius: 50px;
+    background: #0CB8B6;
+    border: none;
+    
+}
+.conteudo-btn-form a {
+    color: white !important;
+    font-weight: bold;
+  
+}
+
+/* SEÇÃO DOS CARDS APÓS O HEADER */ 
+.secao-cards{
+    margin-top: 5%;
+}
+.card{
+    border-radius: 0;
+    width: 300px;
+    border-top: 2px solid #0CB8B6;
+    text-align: center;
+    padding: 5%;
+    margin: 0 2%;
+    transition: all .1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.card:hover{
+    background: #0CB8B6;
+}
+.card:hover> a{
+    color: white !important;
+}
+.card:hover> .container-card-img{
+    background: white;
+    box-shadow: none;
+}
+.card:hover> .container-card-img img{
+    content: url(../imagens/doctor-green.svg);
+}
+.container-card-img{
+    border-radius: 100%;
+    box-shadow: 0 0 10px 0px #888888;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card-img img{
+    width: 50px;
+    height: 50px;
+}
+.card a{
+    margin-top: 20px;
+    font-size: 18px;
+    color: black !important;
+}
+/* SEÇÃO DEPARTAMENTOS */ 
+
+.titulo-servicos{
+    font-size: 25px;
+    padding-left: 15px;
+}
+.container-pai-servicos{
+    margin-top: 5%;
+}
+.servico{
+    border: 1px solid #b3b1b1;
+    padding: 10px;
+    border-radius: 5px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+}
+.servico h3{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    color: black;
+
+}
+
+.descricao-servicos h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.descricao-servicos p{
+    width: 100%;
+    height: 200px;
+    color: gray;  
+}
+
+.descricao-servicos img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.tab-content{
+    width:370px;
+}
+
+.nav-link.active>.servico {
+  
+   background: #0CB8B6 !important;
+   border: none;
+}
+.nav-link.active>.servico h3 {
+    color: white;
+ }
+
+.nav-link {
+    color: #004475;
+    background: none !important;
+}
+
+/*DIAS DE FUNCIONAMENTO */ 
+.funcionamento{
+    width: 400px;
+padding: 2%;
+border: 1px solid rgb(224, 221, 221);
+}
+
+.titulo-funcionamento{
+    font-size: 20px;
+}
+.dia-semana h3{
+    font-size: 13px;
+    padding: 10px;
+}
+.domingo h3{
+    font-size: 13px;
+}
+.dia-semana{
+    margin: 3% 0;
+}
+#fechado{
+    background: #0CB8B6;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+.cinza{
+    background: rgb(238, 236, 236);
+}
+
+#v-pills-tab , .tab-content, .funcionamento{
+    margin: 0 1%;
+}
+/* seção time */
+.container-time{
+    margin-top: 5%;
+    background: #fcf8f8;
+    background-size: 100% 100%;
+}
+.container-time h3{
+    padding-top: 5%;
+    font-weight: bold;
+}
+.container-time h3 span{
+    color: #0CB8B6;
+}
+.container-time p{
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
+
+.time{
+    border-radius: 0;
+    box-shadow: 0 0 5px 0px #c5c4c4;
+    text-align: center;
+    margin: 3%;  
+}
+.texto-time{
+    padding: 5%;
+}
+.time img{
+    width: 300px;
+    border-bottom: 2px solid #0CB8B6;
+}
+.time h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7%;
+}
+.time h4{
+    text-align: center;
+    font-size: 15px;
+    color: #0CB8B6;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    padding-bottom: 5%;
+}
+
+/* contador */
+
+.container-contador{
+    background-image: url(../imagens/bg-contador.jpg);
+    background-attachment: fixed;
+    padding: 5%;
+    text-align: center;
+}
+.icone-contador{
+    background-color: rgba(255, 255, 255);
+    border-radius: 5px;
+    margin: 0 2%;
+    padding: 3%;
+    width: 200px;
+    text-align: center;
+}
+.icone-contador h3{
+    color: rgb(90, 88, 88);
+    font-size: 15px;
+    font-weight: bold;
+}
+.icone-contador span{
+    margin-top: 5%;
+    color: rgb(90, 88, 88);
+    font-size: 25px;
+    font-weight: bold;
+}
+.icone-contador img{
+    padding-bottom: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+/* SEÇÃO DOS COMENTÁRIOS */
+
+.container-comentarios h3{
+    padding-top: 5%;
+    font-weight: bold;
+}
+.container-comentarios h3 span{
+    color: #0CB8B6;
+}
+.container-comentarios p{
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
+
+#aspa{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.comentario{
+    width: 600px;
+    box-shadow: 0 0 5px 0px #c5c4c4;
+    padding: 2%;
+    border-radius: 5px;
+
+}
+.comentario p{
+    padding: 0;
+    border-bottom: 1px solid rgb(190, 186, 186);
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+.comentario img{
+    width: 50px;
+}
+.nome-comentario{
+    padding: 15px;
+}
+.nome-comentario h3{
+    font-size: 18px;
+}
+.nome-comentario h4{
+    font-size: 14px;
+}
+.pessoa-comentario img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+/* EDIÇÃO PARA O CAROUSEL FUNCIONAR */ 
+
+.container-comentarios-carousel .comentario{
+    margin: 0 2%;
+}
+.carousel-control, .carousel-control:hover {
+    opacity: 1;
+ }
+ .carousel-control-prev-icon {
+     position: absolute;
+     left: 0;
+    background-image: url(../imagens/left-arrow.svg) ;
+}
+.carousel-control-next-icon {
+    position: absolute;
+    right: 0;
+    background-image: url(../imagens/right-arrow.svg) ;
+}
+
+#carouselExampleControls{
+    margin-top: 2%;
+}
+
+
+
+@media (max-width:745px){
+
+
+    .container-form-header{
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+    .header-texto{
+        width: 100%;
+    }
+    .header-texto h3{
+        font-size: 20px;
+    }
+    .header-texto h3 span{
+        font-size: 20px;
+    }
+
+    .secao-cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin:3% 0;
+    }
+    .funcionamento{
+        margin: 15% 1%;
+    }
+    .container-contador{
+        flex-wrap: wrap;
+        background-size: cover;
+    }
+    .icone-contador{
+        margin: 2%;
+    }
+
+    .container-comentarios-carousel{
+        flex-wrap: wrap;
+    }
+    .comentario{
+        margin: 2% !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteudo-time{
+        flex-wrap: wrap;
+    }
+
+
+    .descricao-servicos h3{
+        padding: 10px;
+    }
+
+    #bg-servicos{
+        height: 40vh;
+    }
+    .container-pai-servicos{
+        flex-wrap: wrap;
+    }
+    .tab-content{
+        width: 100%;
+    }
+
+   
+}
