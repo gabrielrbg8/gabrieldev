@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Gabriel Ribeiro - Desenvolvedor FullStack</title>
+  </head>
+  <body>
+    <header class="header">
+        <div class="container-header d-flex justify-content-center flex-column align-items-center">
+            <h3>Olá, sou <span>Gabriel.</span></h3>
+            <h4>Desenvolvedor de <span>websites</span><br> e <span>aplicações web</span> em geral.</h4>
+            <a class="container-btn-sobre" href="#">
+               SOBRE MIM
+            </a>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Gabriel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portifolio">Portifolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div  id="portifolio"></div>
+    <section class="container-portifolio">
+        <div class="titulo-portifolio">
+            <h3>portifolio</h3>
+            <p>Por favor, confira alguns dos meus trabalhos</p>
+        </div>
+
+        <div class="container-trabalhos d-flex justify-content-center">
+            <div class="trabalho">
+
+            </div>
+            <div class="trabalho">
+              
+            </div>
+            <div class="trabalho">
+              
+            </div>
+        </div>
+        <div class="container-trabalhos d-flex justify-content-center">
+          <div class="trabalho">
+
+          </div>
+          <div class="trabalho">
+            
+          </div>
+          <div class="trabalho">
+            
+          </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="container-sobre d-flex">
+      <div class="w-50 conteudo-sobre">
+          <h3>sobre mim.</h3>
+          <p>Estou no 6º período do curso de <span>Sistemas de Informação</span>, tenho 21 anos e 
+            atualmente trabalho construindo <span>websites</span> e <span>aplicações para a web.</span>
+            Utilizo tecnologias voltadas para a web, tais como: <span>PHP, JavaScript, HTML, CSS</span> e alguns frameworks.
+            Já trabalhei em empresas de <span>Marketing Digital</span>, onde aprendi os conceitos de 
+            <span>SEO</span>, otimização para que 
+            os sites dos nossos clientes fiquem sempre em <span>primeiro lugar nas buscas do Google.</span>
+          </p>
+          <a class="container-btn-sobre-contato" href="#">
+              CONTATO
+           </a>
+      </div>
+      <div class="w-50 container-img-sobre">
+        <img src="./src/imagens/code.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="container-portifolio">
+        <div class="titulo-portifolio">
+            <h3>experiências profissionais</h3>
+            <p>Algumas empresas e projetos que tive o prazer de ser um contribuidor.</p>
+        </div>
+
+        <div class="container-trabalhos d-flex justify-content-center">
+            <div class="trabalho">
+
+            </div>
+            <div class="trabalho">
+              
+            </div>
+            <div class="trabalho">
+              
+            </div>
+        </div>
+     
+    </section>
+
+    <section class="container-espero d-flex justify-content-between align-items-center">
+      <div class="titulo-espero">
+        <p>Espero que tenha gostado do meu portifolio, entre em contato comigo
+          para que possamos criar coisas incríveis juntos!
+        </p>
+      </div>
+      <a class="container-btn-sobre-maior" href="#">
+          ENTRE EM CONTATO
+       </a>
+    </section>
+
+    <footer id="contato" class="container-footer d-flex justify-content-center align-items-center">
+      <div class="container-form">
+          <h4><span>Entre em contato comigo</span> a partir do formulário abaixo.</h4>
+          <form class=" form-contato d-flex flex-column" action="" >
+              <input type="text" name="nome" placeholder="Nome">
+              <input type="email" name="email" placeholder="Email">
+              <input type="text" name="telefone" placeholder="Telefone">
+              <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+              <button id="btn-enviar" class="container-btn-sobre-maior" type="submit">ENVIAR</button>              
+          </form>
+      </div>
+        
+        <div class="container-redes-sociais">
+            <h4>Ou, se preferir, nas minhas redes sociais</h4>
+            <div class="redes-sociais">
+              <a href=""><img src="./src/imagens/whatsapp.svg" alt=""></a>
+              <a href=""><img id="insta" src="./src/imagens/instagram.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./src/js/js.js"></script>
+  </body>
+</html>
