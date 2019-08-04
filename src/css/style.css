@@ -210,3 +210,24 @@ a:hover{
 #btn-enviar{
     margin: 2%;
 }
+
+@media (max-width: 745px){
+    .container-trabalhos{
+        flex-wrap: wrap;
+    }
+    .container-sobre{
+        flex-wrap: wrap;
+    }
+    .conteudo-sobre, .container-img-sobre{
+        width: 100% !important;
+    }
+    .container-espero{
+        height: auto;
+    }
+    .container-footer{
+        flex-wrap: wrap;
+    }
+    .redes-sociais{
+        text-align: center;
+    }
+}
