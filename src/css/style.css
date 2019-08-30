@@ -1,6 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+ }
 a{
     text-decoration: none;
 }
@@ -20,6 +23,11 @@ a:hover{
 .container-header h3, h4, a{
     margin: 3% 0;
     color: white;  
+}
+
+#btn-clique-naf{
+    color: red;
+    text-decoration: underline;
 }
 .container-header span{
     color:  #CCA100;
@@ -62,10 +70,28 @@ a:hover{
 }
 
 .trabalho{
-    width: 400px;
-    height: 300px;
-    background: rgb(187, 186, 186);
+    background: black;
+    width: 330px;
+    height: 200px;
     margin: 1%;
+    box-shadow: 1px 1px 11px 1px grey;
+}
+.trabalho:hover
+{       cursor: pointer;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        border-radius: 10px;
+        transition: .1s all ease;
+}
+.trabalho a img:hover{
+    border-radius: 10px;
+}
+
+
+.trabalho a img{
+    width: 100%;
+    height: 100%;
 }
 
 /* configurações do menu */
@@ -212,6 +238,10 @@ a:hover{
 }
 
 @media (max-width: 745px){
+    .container-header h3{
+        font-size: 45px;
+        text-align: center;
+    }
     .navbar{
         height: auto;
     }

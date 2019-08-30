@@ -1,0 +1,864 @@
+ul li{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none !important;
+}
+
+.redes-sociais-mobile{
+    display: none !important;
+}
+
+.titulo-redes-sociais-mobile{
+    display: none !important;
+}
+
+ 
+/* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+
+/* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+
+/* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+
+/* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+
+/* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+
+
+
+.container-banner1{
+    margin-top: 5%;
+}
+
+.texto-banner1 p{
+    font-size: 31px;
+    margin-right: 40%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.texto-banner1{
+    position: absolute;
+    left: 3%;
+    top:40%;
+}
+.btn-border-radius{
+    background: #0FC8AF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width:200px;
+    border-radius: 8px;
+    font-size: 23px;
+    position: absolute;
+    left: 4%;
+    top: 60%;
+    height: 70px;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+}
+
+
+.container-imagem-banner1{
+    margin-left: 20%;
+}
+
+.redes-sociais-banner1{
+    position: absolute;
+    right: 3%;
+    top: 85%;
+}
+
+.redes-sociais-banner1 img{
+    width: 80px;
+    height: 70px;
+    padding: 0 1%;
+    transition:all 0.3s ease-in;
+    opacity: 0.9;
+}
+
+.redes-sociais-banner1 img:hover{
+    opacity: 1;
+    background: red;
+    border: 2px solid red;
+}
+
+.texto2-banner1{
+    position: absolute;
+    right: 10%;
+    top: 67%;
+}
+
+.texto2-banner1 p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+/* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 */
+
+/* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 */
+
+/* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 */
+
+
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+.container-janela{
+    border: 10px solid;
+    border-radius: 30px;
+    border-color:#858282;
+    border-width: 1px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 5px #a19f9f;
+    height: 800px;
+    width: 100%;
+}
+.cabecalho-janela{
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background: #0096FF;
+    height: 100px;
+    width: 100%;
+}
+
+.btn-border-radius-janela{
+    background: #0FC8AF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width:200px;
+    border-radius: 8px;
+    font-size: 23px;
+    height: 70px;
+   
+}
+
+.container-btn-2{
+    align-items: flex-end;
+    margin-bottom: 2%;
+}
+.ul-btn-fechar-janela{
+    margin: 2% 3%;
+}
+
+.ul-btn-fechar-janela li{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+   margin: 10px;
+   transition:all 0.5s ease;
+   opacity: 0.8;
+}
+.ul-btn-fechar-janela li:hover{
+    opacity: 1;
+}
+
+#btn-fechar-amarelo{
+    background: #F6C629;
+}
+#btn-fechar-laranja{
+    background: #FF8D1A;
+}
+#btn-fechar-branco{
+    background: #FFFFFF;
+}
+.texto-janela{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40%;
+}
+.texto-janela p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right:27%;
+}
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+/*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+.container-arco-esquerda img{
+        position: absolute;
+        left: 0;
+        width: 10%;
+}
+
+.container-arco-direita img{
+    position: absolute;
+    right: 0;
+    width: 10%;
+    top:310%;
+
+}
+.secao1{
+    margin: 5% 5%;
+}
+.coluna1-secao1 h3{
+    font-size: 40px;
+}
+
+.coluna1-secao1 p{
+    padding-right: 20%;
+    font-size: 25px;
+    text-align: justify;
+    color: #9A9A9A;
+}
+
+.icones-secao1 h4{
+    padding: 15%;
+    font-size: 25px;
+}
+
+.icones-secao1 img{
+    width: 100px;
+    height: 100px;
+}
+
+/*DA ESQUERDA PARA A DIREITA*/
+.secao2{
+    margin-top: 12%;
+    margin-left:  5%;
+    margin-right: 5%;
+}
+.coluna1-secao2 h3{
+    font-size: 40px;
+}
+
+.coluna1-secao2 p{
+    padding-right: 25%;
+    font-size: 25px;
+    text-align: justify;
+    color: #9A9A9A;
+}
+
+.icones-secao2 h4{
+    padding: 15%;
+    font-size: 30px;
+}
+
+/*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+
+.cabecalho-janela-menor{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: #0096FF;
+    height: 50px;
+    width: 400px;
+    box-shadow: 0px 0px 5px #a19f9f;
+
+}
+
+.container-janela-menor{
+    background: #E2E2E2;
+    border: 10px solid;
+    border-radius: 20px;
+    border-color:#858282;
+    border-width: 1px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 5px #a19f9f;
+    height: 300px;
+    width: 400px;
+}
+/*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+
+
+
+
+/* DA DIREITA PARA A ESQUERDA*/
+.secao3{
+    margin-top: 12%;
+    margin-left:  5%;
+    margin-right: 5%;
+}
+.coluna1-secao3{
+    margin-left: 15%;
+}
+.coluna1-secao3 h3{
+    font-size: 40px;
+
+}
+
+.coluna1-secao3 p{
+    padding-right: 0%;
+    font-size: 25px;
+    text-align: justify;
+    color: #9A9A9A;
+}
+
+.icones-secao3 h4{
+    padding: 15%;
+    font-size: 30px;
+}
+
+
+
+
+
+
+.secao4{
+    margin-top: 12%;
+    
+}
+.coluna1-secao4{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.coluna1-secao4 h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.coluna1-secao4 p{
+    
+    padding-right: 20%;
+    font-size: 25px;
+    text-align: justify;
+    color: #9A9A9A;
+    line-height: 50px;
+}
+
+
+.form-input{
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    background: #F6F4F4;
+    padding: 3%;
+}
+
+#form-nome{
+    width: 70%;
+   
+}
+
+#form-email-tel{
+    width: 34.4%;
+}
+
+#form-mensagem{
+    width: 70%;
+    height: 100px;
+}
+
+
+
+@media (min-width: 1880px){
+    ul li{
+        list-style-type: none;
+    }
+    a:link{
+        text-decoration: none !important;
+    }
+    
+     
+    /* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+    
+    /* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+    
+    /* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+    
+    /* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+    
+    /* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 *//* BANNER 1 */
+    
+    
+    .container-banner1{
+        margin-top: 5%;
+    }
+    
+    .texto-banner1 p{
+        font-size: 35px;
+        margin-right: 40%;
+        margin-left: 2%;
+        font-weight: bold;
+    }
+    
+    .texto-banner1{
+        position: absolute;
+        left: 3%;
+        top:40%;
+    }
+    .btn-border-radius{
+        background: #0FC8AF;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        width:200px;
+        border-radius: 8px;
+        font-size: 23px;
+        position: absolute;
+        left: 4%;
+        top: 60%;
+        height: 70px;
+    }
+    
+    
+    .container-imagem-banner1{
+        margin-left: 20%;
+    }
+    
+    .redes-sociais-banner1{
+        position: absolute;
+        right: 12%;
+        top: 60%;
+    }
+    
+    .redes-sociais-banner1 img{
+        width: 80px;
+        height: 70px;
+        padding: 0 1%;
+    }
+    
+    .texto2-banner1{
+        position: absolute;
+        right: 18%;
+        top:48%;
+    }
+    
+    .texto2-banner1 p{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        
+    }
+    
+    /* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 */
+    
+    /* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 */
+    
+    /* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 *//* FIM BANNER 1 */
+    
+    
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    .container-janela{
+        border: 10px solid;
+        border-radius: 30px;
+        border-color:#858282;
+        border-width: 1px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border: none;
+        box-shadow: 0px 0px 5px #a19f9f;
+        height: 800px;
+        width: 100%;
+    }
+    .cabecalho-janela{
+        border-top-right-radius: 100px;
+        border-top-left-radius: 100px;
+        background: #0096FF;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .btn-border-radius-janela{
+        background: #0FC8AF;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        width:200px;
+        border-radius: 8px;
+        font-size: 23px;
+        height: 70px;
+        transition:all 0.5s ease;
+        opacity: 0.8;
+       
+    }
+
+    .btn-border-radius-janela:hover{
+        opacity: 1;
+        background: rgb(6, 136, 119);
+        color: #f1ecec;
+    }
+    
+    .container-btn-2{
+        align-items: flex-end;
+        margin-bottom: 2%;
+    }
+    .ul-btn-fechar-janela{
+        margin: 2% 3%;
+    }
+    
+    .ul-btn-fechar-janela li{
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+       margin: 10px;
+        
+    }
+    
+    #btn-fechar-amarelo{
+        background: #F6C629;
+    }
+    #btn-fechar-laranja{
+        background: #FF8D1A;
+    }
+    #btn-fechar-branco{
+        background: #FFFFFF;
+    }
+    .texto-janela{
+        font-size: 35px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 40%;
+    }
+    .texto-janela p{
+        text-align: center;
+        padding-left: 20%;
+        padding-right:27%;
+    }
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    /*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*//*JANELA 1*/
+    
+    
+    
+    
+    .container-arco-direita img {
+        position: absolute;
+        right: 0;
+        top: 220%;
+    }
+    
+    .secao1{
+        margin: 5% 5%;
+    }
+    .coluna1-secao1 h3{
+        padding-right: 35%;
+        font-size: 50px;
+        text-align: justify;
+    }
+    
+    .coluna1-secao1 p{
+        padding-right: 45%;
+        font-size: 35px;
+        text-align: justify;
+        color: #9A9A9A;
+    }
+    
+    .icones-secao1 h4{
+        padding: 15%;
+        font-size: 30px;
+    }
+
+    .icones-secao1:hover{
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+            transition: all ease-in .3s;
+           
+    }
+    
+    
+    /*DA ESQUERDA PARA A DIREITA*/
+    .secao2{
+        margin-top: 12%;
+        margin-left:  5%;
+        margin-right: 5%;
+    }
+    .coluna1-secao2 h3{
+        padding-right: 35%;
+        font-size: 50px;
+        text-align: justify;
+    }
+    
+    .coluna1-secao2 p{
+        padding-right: 29%;
+        font-size: 35px;
+        text-align: justify;
+        color: #9A9A9A;
+    }
+    
+    .icones-secao2 h4{
+        padding: 15%;
+        font-size: 30px;
+    }
+    
+    /*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+    
+    .cabecalho-janela-menor{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        background: #0096FF;
+        height: 50px;
+        width: 600px;
+        box-shadow: 0px 0px 5px #a19f9f;
+    
+    }
+    
+    .container-janela-menor{
+        background: #E2E2E2;
+        border: 10px solid;
+        border-radius: 20px;
+        border-color:#858282;
+        border-width: 1px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border: none;
+        box-shadow: 0px 0px 5px #a19f9f;
+        height: 400px;
+        width: 600px;
+    }
+    /*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+    
+    
+    
+    
+    /* DA DIREITA PARA A ESQUERDA*/
+    .secao3{
+        margin-top: 12%;
+        margin-left:  5%;
+        margin-right: 5%;
+    }
+    .coluna1-secao3{
+        margin-left: 15%;
+    }
+    .coluna1-secao3 h3{
+        padding-right: 35%;
+        font-size: 50px;
+        text-align: justify;
+    }
+    
+    .coluna1-secao3 p{
+        padding-right: 0%;
+        font-size: 35px;
+        text-align: justify;
+        color: #9A9A9A;
+    }
+    
+    .icones-secao3 h4{
+        padding: 15%;
+        font-size: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    .secao4{
+        margin-top: 12%;
+        
+    }
+    .coluna1-secao4{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .coluna1-secao4 h3{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .coluna1-secao4 p{
+        padding-right: 25%;
+        font-size: 35px;
+        text-align: justify;
+        color: #9A9A9A;
+        line-height: 60px;
+    }
+    
+    
+   
+    
+    .footer{
+        margin-top: 10%;
+    }
+    
+
+}
+
+@media (max-width: 740px){
+    .container-arco-direita{
+        display: none !important;
+    }
+    .container-arco-esquerda{
+        display: none !important;
+    }
+    .container-banner1{
+        flex-wrap: wrap !important;
+    }
+    .texto-banner1{
+       position: static;
+      
+    }
+    .texto-banner1 p{
+       font-size: 20px;
+       margin-right: 0;
+       margin-left: 0;
+       text-align: center;
+     }
+     .texto2-banner1{
+        display: none !important;
+    }
+
+    .btn-border-radius-janela {
+        background: #0FC8AF;
+        color: white;
+        padding: 8px !important;
+        text-align: center;
+        width: 100px !important;
+        border-radius: 2px !important;
+        font-size: 15px !important;
+        height: 40px !important;
+    }
+    .btn-border-radius{
+        position: static;
+       
+        border-radius: 5px;
+        background: #0FC8AF;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        width: 100px;
+        border-radius:0;
+        font-size: 18px;
+        height: 50px;
+    }
+
+    .redes-sociais-banner1{
+        display: none !important;
+    }
+
+    .container-janela{
+        height: 300px;
+    }
+    .cabecalho-janela{
+        height: 40px;
+    }
+    .ul-btn-fechar-janela li {
+        border-radius: 100px;
+        width: 10px;
+        height:10px;
+        margin: 10px;
+    }
+
+    .texto-janela {
+        font-size: 14px;
+        
+    }
+    .titulo-redes-sociais-mobile{
+        display: flex !important;
+    }
+
+    .redes-sociais-mobile{
+        display: flex !important;
+    }
+
+    .redes-sociais-mobile img{
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .conteudo-secao1{
+        flex-wrap: wrap !important;
+    }
+
+    .coluna1-secao1 h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .coluna1-secao1 p {
+        padding: 10px;
+        font-size: 15px;
+        text-align: justify;
+        color: #9A9A9A
+    }
+
+    .container-btn-2 {
+        justify-content: center;
+    }
+    .coluna2-secao1{
+        margin-top: 30%;
+    }
+
+    .conteudo-secao2{
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .coluna1-secao2 h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .coluna1-secao2 p {
+        padding: 10px;
+        font-size: 15px;
+        text-align: justify;
+        color: #9A9A9A;
+    }
+
+    .container-janela-menor{
+        width: 300px;
+    }
+    .cabecalho-janela-menor{
+        height: 40px;
+        width: 300px;
+    }
+
+    .conteudo-secao3{
+        justify-content: center !important;
+        flex-wrap: wrap-reverse;
+       
+    }
+    .coluna1-secao3 {
+        margin-left: 0;
+    }
+    .coluna1-secao3 h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .coluna1-secao3 p {
+        padding: 0;
+        font-size: 15px;
+        text-align: justify;
+        color: #9A9A9A;
+    }
+
+    .conteudo-secao4{
+        flex-wrap: wrap;
+    }
+
+    .coluna1-secao4 {
+        margin-left: 0;
+        margin-top: 15%;
+        padding: 10px;
+    }
+
+    .coluna1-secao4 h3 {
+        justify-content: center !important;
+        font-size: 30px;
+        text-align: center;
+    }
+    .coluna1-secao4 p {
+        padding: 0;
+        font-size: 15px;
+        text-align: justify;
+        color: #9A9A9A;
+        line-height: 30px;
+    }
+
+    .secao4 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .pai-container-form{
+        width: 100% !important;
+    }
+
+    #form-email-tel {
+        width: 69.4%;
+    }
+    
+}

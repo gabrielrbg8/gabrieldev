@@ -1,0 +1,802 @@
+body{
+    font-family: 'Hind', sans-serif;
+}
+a:link{
+    text-decoration: none !important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header-bg{
+    background-image: url(../imagens/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 5%;
+}
+.div-esquerda{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.div-esquerda p{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#video-header{
+    width: 580px;
+    height: 410px;
+    background: black;
+    align-items: center;
+}
+.simbolo-youtube{
+    width:80px;
+    height: 80px;
+}
+
+#concretta-header{
+    width: 300px;
+    height: auto;
+    position: relative;
+    top:8%;
+}
+.div-direita{
+    width: 30%;
+    position: relative;
+    right: 10%;
+    
+}
+.div-direita p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+#paragrafo-spam{
+    font-size: 10px !important;
+    font-weight: 100;
+}
+
+.form-header input{
+    padding: 10px;
+    width: 300px;
+    height: 45px;
+    margin: 1% auto;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn-garanta{
+    background: rgb(228, 192, 13);
+    font-weight: bold;
+    font-size: 20px;
+    opacity: .9;
+}
+#concretta-footer-mobile{
+    display: none !important;
+}
+
+
+/*FIM DO HEADER*/ 
+
+.titulo-secao1 {
+    margin-top: 5%;
+}
+.titulo-secao1 h3 {
+    color: #474747;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container-marcadores-secao1{
+    margin-top: 2%;
+}
+#banner-secao1{
+    height: 650px;
+    width: 700px;
+}
+
+.marcadores-secao1 p{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.container-btn-garanta2 a{
+        color: #6E29FB;
+        font-weight: bold;
+        text-decoration: underline;
+}
+
+/*fim secao 1*/
+
+.titulo-comentarios {
+    margin-top: 5%;
+}
+.titulo-comentarios h3 {
+    color: #474747;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container-comentarios{
+    margin: 0 8%;
+}
+
+.comentario{
+    border: 1px solid #F92835;
+    text-align: center;
+    margin: 3%;
+    padding: 5% 5%;
+    border-radius: 25px;
+}
+.comentario h3{
+    padding-top: 5%;
+    font-size: 22px;
+}
+.comentario p{
+   
+    font-size: 15px;
+}
+
+.container-btn-garanta3{
+    text-align: center;
+}
+.btn-garanta3{
+    background-image: url(../imagens/btn-garanta3.png);
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.btn-garanta3 a{
+    font-size: 20px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+}
+.paragrafo-garanta a{
+    font-size: 13px;
+    text-align: center;
+    color: #6E29FB !important;
+    text-decoration: underline !important;
+}
+
+
+/*fim comentarios*/
+
+.container-secao2{
+    margin-top: 5%;
+    background-image: url(../imagens/banner-secao2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#titulo-secao2 {
+    display: none !important;
+}
+.container-marcadores-secao2-mobile{
+    display: none !important;
+}
+.container-marcadores-secao2{
+   margin-top: 10%;
+   margin-left: 15%
+}
+
+.marcadores-secao2 p{
+    font-size: 18px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+}
+.marcadores-secao2 img{
+    width: 15px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+/*FIM SECAO 2*/
+
+.titulo-equipe {
+    margin-top: 5%;
+}
+.titulo-equipe h3 {
+    color: #474747;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container-equipe{
+    margin: 0 20%;
+}
+
+.equipe{
+    border: 1px solid #F92835;
+    text-align: center;
+    margin: 3%;
+    padding: 5px 5px;
+    border-radius:13px;
+}
+.equipe-legenda{
+    text-align: center;
+}
+
+.equipe-legenda h3{
+    font-size: 16px;
+}
+.equipe-legenda p{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #474747;
+    font-size: 18px;
+}
+
+/*FIM EQUIPE*/
+
+.titulo-secao3 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.titulo-secao3 h3 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.conteudo-secao3{
+    margin: 1% 4%;
+}
+
+.conteudo-secao3 img{
+    width: 45px;
+    height: 45px;
+}
+
+.conteudo-secao3 p{
+    font-size:25px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.paragrafo-secao3{
+    font-size: 23px;
+    text-align: center;
+    color: #474747;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*FIM SECAO 3*/
+
+.footer{
+    margin-top: 3%;
+    background-image: url(../imagens/img-footer.jpg);
+    background-repeat: no-repeat;
+   
+}
+#concretta-footer{
+    height: 200px;
+    width: 380px;
+}
+.redes-sociais{
+    align-items: center;
+}
+
+.redes-sociais a{
+    margin: 3%;
+}
+
+.conteudo-footer div{
+    margin: 0 5%;
+}
+.redes-sociais{
+    margin-left: -15% !important;
+  }
+
+
+
+
+/*FULL HD*/
+
+@media (min-width: 1888px){
+    .header-bg{
+        background-image: url(../imagens/banner1.jpg);
+        background-repeat: no-repeat;
+        height:900px;
+        padding: 2% 5%;
+    }
+    .div-esquerda{
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    
+    .div-esquerda p{
+        color: white;
+        font-weight: bold;
+        font-size: 45px;
+    }
+    
+    #video-header{
+        width: 800px;
+        height:512px;
+    }
+    
+    #concretta-header{
+        width: 400px;
+        height:auto;
+        right: -10%;
+        top: 5%;
+        
+    }
+    .div-direita{
+        margin-top: -3%;
+        width: 50%;
+        position: relative;
+        right: 10%;
+    }
+    .div-direita p{
+        color: white;
+        font-weight: bold;
+        font-size: 27px;
+        text-align: center;
+    }
+    #paragrafo-spam{
+        font-size: 10px !important;
+        font-weight: 100;
+    }
+    
+    .form-header input{
+        width: 400px;
+        height: 50px;
+        margin: 1% auto;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    #btn-garanta{
+        background: #FFD500;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    /*FIM DO HEADER*/ 
+    
+    .titulo-secao1 {
+        margin-top: 5%;
+    }
+    .titulo-secao1 h3 {
+        color: #474747;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .container-marcadores-secao1{
+        margin-top: 2%;
+    }
+    #banner-secao1{
+        height: 800px;
+        width: 1000px;
+    }
+    
+    .marcadores-secao1 p{
+        font-size: 23px;
+        padding-top: 20px;
+        padding-left: 20px;
+        color: #474747;
+        font-weight: bold;
+    }
+    
+    .container-btn-garanta2 a{
+            color: #6E29FB;
+            font-weight: bold;
+            text-decoration: underline;
+    }
+    
+    /*fim secao 1*/
+    
+    .titulo-comentarios {
+        margin-top: 5%;
+    }
+    .titulo-comentarios h3 {
+        color: #474747;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .container-comentarios{
+        margin: 0 20%;
+    }
+    
+    .comentario{
+        border: 1px solid #F92835;
+        text-align: center;
+        margin: 3%;
+        padding: 5% 5%;
+        border-radius: 25px;
+    }
+    .comentario h3{
+        padding-top: 5%;
+        font-size: 22px;
+    }
+    .comentario p{
+       
+        font-size: 15px;
+    }
+    .container-btn-garanta3{
+        text-align: center;
+    }
+    .btn-garanta3{
+        background-image: url(../imagens/btn-garanta3.png);
+        width: 400px;
+        height: 80px;
+        border-radius: 50px;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    
+    .btn-garanta3 a{
+        font-size: 20px;
+        color: white !important;
+        font-weight: bold;
+        text-decoration: underline;
+        text-align:center;
+    }
+    
+    /*fim comentarios*/
+    
+    .container-secao2{
+        margin-top: 5%;
+        background-image: url(../imagens/banner-secao2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .titulo-secao2 h3{
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    .container-marcadores-secao2{
+       margin-top: 8%;
+       margin-left: 20%
+    }
+    .marcadores-secao2 img {
+      
+        margin-top: 43px;
+    }
+    
+    .marcadores-secao2 p{
+        font-size: 23px;
+        padding-top: 20px;
+        padding-left: 20px;
+        color: white;
+        font-weight: bold;
+        line-height: 70px;
+    }
+    
+    /*FIM SECAO 2*/
+    
+    .titulo-equipe {
+        margin-top: 5%;
+    }
+    .titulo-equipe h3 {
+        color: #474747;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .container-equipe{
+        margin: 0 20%;
+    }
+    
+    .equipe{
+        border: 1px solid #F92835;
+        text-align: center;
+        margin: 3%;
+        padding: 5px 0;
+        border-radius:13px;
+    }
+    .equipe-legenda{
+        text-align: center;
+    }
+    
+    .equipe-legenda h3{
+        font-size: 16px;
+    }
+    .equipe-legenda p{
+        padding-left: 5%;
+        padding-right: 5%;
+        color: #474747;
+        font-size: 18px;
+    }
+    
+    /*FIM EQUIPE*/
+    
+    .titulo-secao3 {
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .titulo-secao3 h3 {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .conteudo-secao3{
+        margin: 1% 4%;
+    }
+    
+    .conteudo-secao3 img{
+        width: 65px;
+        height: 65px;
+    }
+    
+    .conteudo-secao3 p{
+        font-size:30px;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+    
+    .paragrafo-secao3{
+        font-size: 25px;
+        text-align: center;
+        color: #474747;
+        margin-top: 2%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    /*FIM SECAO 3*/
+    
+    .footer{
+        margin-top: 3%;
+        background-image: url(../imagens/img-footer.jpg);
+        background-repeat: no-repeat;
+    }
+    #concretta-footer{
+        height: 200px;
+        width: 380px;
+    }
+    
+    .redes-sociais{
+        align-items: center;
+    }
+    .redes-sociais a{
+        margin: 3%;
+    }
+    
+    .conteudo-footer div{
+        margin: 0 5%;
+    }
+    .redes-sociais{
+        margin-left: -5% !important;
+      }
+   
+
+        
+}
+
+/*MOBILE*/
+
+@media (max-width: 745px){
+    img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .header-bg{
+        flex-wrap: wrap;
+        background-size: cover;
+    }
+
+    .div-esquerda p{
+        font-size: 20px;
+    }
+
+    .div-direita{
+        width: 100% !important;
+        position: static;
+    }
+    .div-esquerda{
+        display: flex !important;
+        justify-content:center;
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    #concretta-header{
+        position: static;
+        width: 100%;
+    }
+    #video-header{
+
+        max-width: 100%;
+        height: 300px;;
+    }
+
+    /*FIM HEADER*/
+    .titulo-secao1 h3{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .container-banner-secao1{
+        flex-wrap: wrap-reverse;
+    }
+    #banner2-secao1{
+        height: 130px !important;
+    }
+    
+    #banner-secao1{
+        display: none;
+    }
+
+    .marcadores-secao1 img{
+        width: 20px !important;
+        height: 22px !important;
+        margin-top: 5%;
+    }
+    .container-marcadores-secao2{
+        display: none !important;
+    }
+    .container-marcadores-secao2-mobile{
+        display: block !important;
+    }
+
+    .container-secao2{
+        background: none !important;
+    }
+    .container-marcadores-secao2-mobile{
+        margin: 20px;
+        
+    }  
+    .marcadores-secao2 img{
+        width: 15px !important;
+        height: 18px !important;
+        margin-top: 5%;
+    }
+
+    .marcadores-secao2 p {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-left: 20px;
+        color: #474747;
+        font-weight: bold;
+    }
+
+    .container-btn-garanta2{
+        text-align: center !important;
+    }
+    
+    .container-btn-garanta2 img{
+        height: 60px !important;
+    }
+    .container-btn-garanta3 img{
+        height: 60px !important;
+        width: 100px;
+    }
+
+    .container-btn-garanta2 p {
+        text-align: center !important;
+        font-size: 10px;
+    }
+
+    /*comentarios*/
+
+    .titulo-comentarios h3{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .container-comentarios{
+        flex-wrap: wrap;
+    }
+
+    /*equipe*/
+
+    .titulo-equipe h3{
+        font-size: 20px;
+    }
+    .container-equipe{
+        flex-wrap: wrap;
+    }
+
+    /*secao 3*/
+
+    .titulo-secao3 h3{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .conteudo-secao3{
+        text-align: center;
+        display: block !important;
+    }
+    .conteudo-secao3 img{
+        width:40px;
+        height: 40px !important;
+    }
+
+    .conteudo-secao3 p{
+        font-size: 15px;
+    }
+
+    .paragrafo-secao3 {
+        margin:0;
+        font-size: 18px;
+    }
+
+    /*footer*/
+
+    .conteudo-footer{
+        width: 75%;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+    }
+   
+
+    .redes-sociais a{
+       margin-top: 5%;
+       margin-left: 10%;
+    }
+    #concretta-footer{
+        display: none !important;
+    }
+    
+    #concretta-footer-mobile{
+        display: flex !important;
+        height: auto;
+        width:100%;
+    }
+
+    .conteudo-footer div{
+        text-align: center;
+        margin: 0;
+    }
+    .logo-concretta-footer{
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .btn-garanta3{
+        width: 200px;
+    }
+    .btn-garanta3 a{
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+
+
+

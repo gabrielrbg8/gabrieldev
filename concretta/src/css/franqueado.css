@@ -1,0 +1,304 @@
+.banner1{
+    width: 100%;
+    height: 480px;
+    background-image: url(../imagens/banner-franqueado.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;    
+}
+.banner-franqueado{
+    margin-top: 5%;
+    width: 100%;
+    height: 480px;
+    background-image: url(../imagens/seja-um-franqueado-video.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+.banner-franqueado img{
+    width: 100px;
+    height: 100px;
+}
+.missao{
+    margin-top: 5%;
+}
+
+
+.titulo-missao h5{
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo-missao p{
+    padding-top: 1%;
+    line-height: 50px;
+    font-size: 20px;
+    color: #535151;
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
+
+.container-btn-missao div a{
+    font-weight: 100;
+}
+.btn-verde {
+    background:#1BB253;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.btn-verde a{
+    font-size: 15px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+}
+
+.empreendedores h3{
+    padding-top: 5%;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.empreendedores p{
+    padding-top: 1%;
+    line-height: 50px;
+    font-size: 18px;
+    color: #535151;
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
+.assessoria{
+    margin-top: 5%;
+    width: 100%;
+    height: 480px;
+    background-image: url(../imagens/banner-acessoria.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;  
+}
+.container-ul-assessoria{
+    width: 100%;
+}
+.conteudo-ul-assessoria{
+    margin: 0 5% !important;
+}
+.assessoria div{
+    margin: 1% auto;
+}
+.titulo-assessoria h3{
+    color: white;
+}
+.ul-assessoria li{
+    color: white;
+    list-style-type: disc;
+    margin: 5% auto;
+}
+
+.titulo-diferenciais h3{
+    font-size: 45px;
+}
+.icone-diferenciais {
+    margin:2% 3%;
+    text-align: center;
+}
+.icone-diferenciais img{
+    width: 90px;
+    height:90px;
+}
+
+.icone-diferenciais h2{
+    padding-top: 1%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.investimento{
+    padding: 5%;
+    background: linear-gradient( #F22500, #F31B0E, #F6032E);
+    text-align: center;
+    color: white;
+}
+.investimento h3{
+    margin-top: 5%;
+}
+.investimento p{
+    margin-top: 5%;
+    font-size: 12px;
+}
+.h3-border{
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+.h3-yellow{
+    font-size: 40px;
+    color: #F3D615;
+}
+
+.container-btn-investimento{
+    margin-top: 5%;
+}
+.container-btn-investimento div a{
+    font-weight: 100;
+}
+.form-contato{
+    flex-wrap: wrap;
+}
+.form-contato input{
+    padding: 3%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #dad5d5;
+    margin: 1% auto;
+}
+#maior{
+    width: 99%;
+}
+#menor{
+    width: 49%;   
+}
+.btn-verde-form{
+    font-size: 15px;
+    padding: 10px !important;
+    background:#1BB253;
+    color: white;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px !important;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+@media (min-width: 1888px){
+    .banner1{
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: 100% 680px;    
+    }
+    .banner-franqueado{
+        margin-top: 5%;
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: 100% 680px;    
+    }
+
+   
+   
+    .empreendedores h3{
+        padding-top: 5%;
+        font-weight: 100;
+        text-align: center;
+        font-size: 45px;
+    }
+    
+    .empreendedores p{
+        padding-top: 1%;
+        line-height: 50px;
+        font-size: 22px;
+        color: #535151;
+        text-align: center;
+        padding: 0 15% 0 15%;
+    }
+    .assessoria{
+        margin-top: 5%;
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;  
+    }
+    .assessoria div{
+        margin: 1% auto;
+    }
+    .ul-assessoria li{
+        font-size: 20px;
+        color: white;
+        list-style-type: disc;
+    }
+
+    .icone-diferenciais {
+        margin:2% 5%;
+        text-align: center;
+    }
+    .icone-diferenciais img{
+        width: auto;
+        height:auto;
+    }
+    
+}
+
+@media (max-width: 745px){
+    .banner1{
+        height: 150px;
+    }
+    .banner-franqueado{
+        height: 171px;
+    }
+    .banner-franqueado img{
+        width: 30px;
+        height: 30px;
+    }
+    .titulo-missao h5{
+        font-size:20px;
+        text-align: center;
+    }
+    
+    .titulo-missao p{
+        padding-top: 1%;
+        line-height: 35px;
+        font-size: 15px;
+        color: #535151;
+        text-align: center;
+        padding: 0 15% 0 15%;
+    }
+    .empreendedores h3{
+        padding-top: 5%;
+        font-weight: 100;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .empreendedores p{
+        padding-top: 1%;
+        line-height: 35px;
+        font-size: 15px;
+        color: #535151;
+        text-align: center;
+        padding: 0;
+    }
+    .assessoria {
+        background-size: cover;
+    }
+    .titulo-assessoria {
+        display: flex;
+        justify-content: center;
+    }
+    .titulo-assessoria h3{
+        text-align: center;
+        font-size: 18px;
+    }
+    .ul-assessoria li{
+        font-size: 15px;
+    }
+    .conteudo-ul-assessoria {
+        margin: 0!important;
+    }
+    .conteudo-diferenciais{
+        flex-wrap: wrap;
+    }
+
+    .conteudo-invesimento-50{
+        width: 100% !important;
+    }
+
+    .investimento h3 {
+        font-size: 18px;
+    }
+    .form-contato{
+        width: 75% !important;
+    }
+    
+}

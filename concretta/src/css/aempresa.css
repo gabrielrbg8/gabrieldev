@@ -1,0 +1,301 @@
+.banner1{
+   
+    width: 100%;
+    height: 480px;
+    background-image: url(../imagens/banner-aempresa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;    
+}
+
+
+.texto-video{
+    background: #f8f5f5;
+}
+.texto-video p{
+    text-align: center;
+    color: #535151;
+    font-size: 18px;
+    padding: 5% 25% 0 25%;
+
+}
+
+
+/*SEÇÃO PREMIOS*/
+.nossos-premios{
+    background-image: url(../imagens/bg-premios-aempresa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.texto-premios h3{
+    text-align: center;
+    font-size: 70px;
+    color: #F3D615;
+}
+.texto-premios p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding: 1% 19% 0 19%;
+
+}
+
+
+.container-btn-carousel div a{
+    font-weight: 100;
+} 
+
+/*MISSAO VISAO E VALORES*/
+.missao{
+    margin-top: 5%;
+}
+.missao img{
+    max-width: 540px;
+    height: 600px;
+}
+.titulo-missao{
+    margin: 5% 0 0 10%;
+}
+.titulo-missao h5{
+    font-size: 50px;
+    padding-right: 25%;
+}
+
+.titulo-missao p{
+    padding-top: 1%;
+    line-height: 50px;
+    font-size: 20px;
+    color: #535151;
+    padding-right: 25%;
+}
+
+.container-btn-missao div a{
+    font-weight: 100;
+}
+.container-btn-missao{
+    margin-top: 10%;
+}
+
+/*MISSÃO*/
+.circulo-texto{
+    margin: auto 10% 0 10%;
+}
+.container-circulo{
+    margin-top: 5%;
+}
+.circulo-bg-laranja{
+    width: 60px;
+    height: 60px;
+    background: #F22500;
+    border-radius: 100%;
+}
+
+.texto-bg-laranja h3{
+    padding-left: 25px;
+    font-size: 25px;
+    color: #292727;
+}
+.texto-bg-laranja-direita h3{
+    padding-right: 25px;
+    font-size: 25px;
+    color: #292727;
+}
+.texto-bg-laranja p{
+    padding-left: 10px;
+    line-height: 40px;
+    font-size: 17px;
+    color: #535151;
+}
+
+.texto-bg-laranja-direita p{
+    padding-right: 10px;
+    line-height: 40px;
+    font-size: 17px;
+    text-align: right;
+    color: #535151;
+}
+.texto-bg-laranja-direita h3{
+    text-align: right;
+}
+.secao1 img{
+    max-width: 100%;
+    height: 520px;
+}
+
+
+
+
+/*FULL HD*/
+@media (min-width: 1888px){
+    .banner1{
+        width: 100%;
+        height: 680px;
+        background-image: url(../imagens/banner-aempresa.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 680px;    
+    }
+       
+    .texto-video{
+        background: #f8f5f5;
+    }
+    .texto-video p{
+        text-align: center;
+        color: #535151;
+        font-size: 20px;
+        padding: 5% 25% 0 25%;
+    
+    }
+    /*secao 1, mulher no meio*/
+        .secao1{
+            margin-top: 5%;
+        }
+    .secao1 img{
+        max-width: auto;
+        height: auto;
+    }
+    .circulo-bg-laranja{
+        width: 80px;
+        height: 80px;
+        background: #F22500;
+        border-radius: 100%;
+    }
+    
+    .texto-bg-laranja h3{
+        padding-left: 25px;
+        font-size: 35px;
+        color: #292727;
+    }
+    .texto-bg-laranja-direita h3{
+        padding-right: 25px;
+        font-size: 35px;
+        color: #292727;
+    }
+    .texto-bg-laranja p{
+        padding-left: 10px;
+        line-height: 40px;
+        font-size: 20px;
+        color: #535151;
+    }
+    
+    .texto-bg-laranja-direita p{
+        padding-right: 10px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: right;
+        color: #535151;
+    }
+    
+    /*SEÇÃO PREMIOS*/
+    
+    .texto-premios h3{
+        text-align: center;
+        font-size: 70px;
+    }
+    .texto-premios p{
+        font-size: 20px;
+    }
+    /*IMG CAROUSEL = IMAGEM DOS PERMIOS ; REAPROVEITAMENTO DE CALSSE*/
+    #img-carousel1{
+        margin: 0;
+        height: auto;
+    }
+    
+   
+    
+    /*MISSAO VISAO E VALORES*/
+    .missao{
+        margin-top: 5%;
+    }
+    .missao img{
+        max-width: 100%;
+        height: auto;
+    }
+   
+    .titulo-missao{
+        margin: 15% 0 0 10%;
+    }
+    .titulo-missao h5{
+        font-size: 70px;
+        padding-right: 25%;
+    }
+    
+    .titulo-missao p{
+        padding-top: 1%;
+        line-height: 50px;
+        font-size: 23px;
+        color: #535151;
+        padding-right: 25%;
+    }
+    
+    .container-btn-missao div a{
+        font-weight: 100;
+    }
+    .container-btn-missao{
+        margin-top: 10%;
+    }
+    
+    
+}
+
+@media (max-width: 745px){
+
+
+    /*PRIMEIRO BANNER DA PAGINA*/
+
+    .banner1{
+        height: 150px;
+    }
+    
+    .texto-video p{
+        font-size: 12px;
+    }
+    
+    /* cursos = prêmios ; reaproveitamento de classe */
+
+    .texto-cursos h3{
+        font-size: 22px;
+    }
+    .texto-cursos p{
+        font-size: 17px;
+        padding: 0 5% 0 5%;
+    }
+    .img-cursos{
+        flex-wrap: wrap;
+    }
+
+    /*SEÇÃO DOS CIRCULOS LARANJAS*/    
+    .secao1{
+        margin-top: 5%;
+        flex-wrap: wrap;
+    }
+    
+    /* SEÇÃO NOSSOS PRÊMIOS */
+    .texto-premios h3{
+        font-size: 20px;
+    }
+    .texto-premios p{
+        font-size: 12px;
+    }
+
+    /* missao mobile */
+
+    .missao{
+        flex-wrap: wrap;
+    }
+    .missao img{
+        max-width: 100%;
+        height: 500px;
+    }
+    .missao h5{
+        font-size: 30px;
+        padding: 0;
+    }
+    .titulo-missao p{
+        font-size: 20px;
+        padding: 0;
+    }
+
+}
+
+
+
+

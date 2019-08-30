@@ -1,0 +1,22 @@
+.banner1{
+    width: 100%;
+    height: 480px;
+    background-image: url(../imagens/bannercursos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;    
+}
+
+@media (min-width: 1888px){
+    .banner1{
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: 100% 680px;    
+    }
+}
+
+@media (max-width: 745px){
+    .banner1{
+        height: 150px;
+    }
+}

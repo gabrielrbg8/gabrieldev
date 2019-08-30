@@ -1,0 +1,99 @@
+.cont-menu{
+    height: 50px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+   
+}
+.fixar{
+    z-index: 9999; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    transition: all .1s ease-out;
+    
+    background: white;  
+}
+.mudatexto{
+    color: gray !important;
+}
+.mudalogo{
+    color: #1E6BCC !important;
+}
+header{
+    background: url(../imagens/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-attachment: fixed;
+}
+.navbar{
+    padding: 0 !important;
+ 
+}
+.navbar-brand{
+    color: white ;
+    font-size: 25px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #1E6BCC;
+    border-color: #1E6BCC;
+}
+#navhome{
+    color: #1E6BCC !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    width: 110px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.nav-item:hover>a {  
+    color: #1E6BCC !important;  
+}
+
+.navbar-dark .navbar-nav .nav-link.mudatexto:hover{
+    color: white;
+}   
+
+#hovered{
+       border: 1px dashed white ;
+       padding: 0 5px;    
+}
+.mudaborda{
+    border-color: #1E6BCC !important;
+}
+.mudatel{
+    color: #1E6BCC !important;
+}
+#hovered a{
+    font-size: 16px;
+}
+#hovered img{
+    color: #1E6BCC;
+    width: 22px;
+    height:20px;
+    align-self: center;
+    padding-top: 5px;
+}
+
+
+
+@media (max-width: 745px){
+    .navbar-brand img{
+        width: 150px;
+        height: auto;
+    }
+    .container{
+        height: auto;
+    }
+    
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+}

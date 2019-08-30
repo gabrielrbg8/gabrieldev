@@ -9,14 +9,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Gabriel Ribeiro - Desenvolvedor FullStack</title>
   </head>
   <body>
     <header class="header">
         <div class="container-header d-flex justify-content-center flex-column align-items-center">
-            <h3>Olá, sou <span>Gabriel.</span></h3>
-            <h4>Desenvolvedor de <span>websites</span><br> e <span>aplicações web</span> em geral.</h4>
-            <a class="container-btn-sobre" href="#">
+            <h3 data-aos="zoom-in"
+            data-aos-duration="2000">Olá, sou <span>Gabriel.</span></h3>
+            <h4 data-aos="fade-up"                 
+            data-aos-duration="3000"
+            data-aos-delay="4000">Desenvolvedor de <span>websites</span><br> e <span>aplicações web</span> em geral.</h4>
+            <a data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="container-btn-sobre" href="#sobre">
                SOBRE MIM
             </a>
         </div>
@@ -53,25 +60,40 @@
         </div>
 
         <div class="container-trabalhos d-flex justify-content-center">
-            <div class="trabalho">
-
+            <div data-aos-delay="1000" data-aos="fade-down-right" class="trabalho">
+              <a target="_blank" href="coe/index.html">
+                  <img src="./src/imagens/coe.png" alt="">
+              </a>
             </div>
-            <div class="trabalho">
+            <div data-aos-delay="1000" data-aos="fade-down" class="trabalho">
+                <a target="_blank" href="tyrraf/index.html">
+                  <img src="./src/imagens/tyrraf.jpg" alt="">
+               </a>
+               
               
             </div>
-            <div class="trabalho">
-              
+            <div data-aos-delay="1000" data-aos="fade-down-left" class="trabalho">
+                <a target="_blank" href="landing-concretta/index.html">
+                  <img src="./src/imagens/landing-concretta.jpg" alt="">
+               </a>
+               
             </div>
         </div>
         <div class="container-trabalhos d-flex justify-content-center">
-          <div class="trabalho">
-
+          <div data-aos="fade-up-right" class="trabalho">
+              <a target="_blank" href="makego/index.html">
+                <img src="./src/imagens/makego.jpg" alt="">
+             </a>
           </div>
-          <div class="trabalho">
-            
+          <div  data-aos-delay="1000" data-aos="fade-up" class="trabalho">
+              <a target="_blank" href="landing-ips/index.html">
+                <img src="./src/imagens/ips.jpg" alt="">
+             </a>
           </div>
-          <div class="trabalho">
-            
+          <div data-aos-delay="1000" data-aos="fade-up-left" class="trabalho">
+              <a target="_blank" href="concretta/index.html">
+                <img src="./src/imagens/concretta.png" alt="">
+             </a>
           </div>
       </div>
     </section>
@@ -101,18 +123,145 @@
             <p>Algumas empresas e projetos que tive o prazer de ser um contribuidor.</p>
         </div>
 
-        <div class="container-trabalhos d-flex justify-content-center">
-            <div class="trabalho">
+        <div class="w-100 container-carousel d-flex justify-content-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="container">
+                          <div class="span3 well">
+                              <center>
+                              <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="./src/imagens/logoazun.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+                              <h3>AZUN DIGITAL</h3>
+                              <em>SAIBA MAIS CLICANDO NA IMAGEM ACIMA</em>
+                          </center>
+                          </div>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                          <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+                                          </div>
+                                      <div class="modal-body">
+                                          <center>
+                                          <img src="./src/imagens/logoazun.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                          <h3 class="media-heading">AZUN DIGITAL</h3>
+                                          <span><strong>Desenvolvedor Web FullStack </strong></span>
+                                              <p>Desenvolver websites otimizados para SEO
+                                                com as seguintes tecnologias: PHP, JavaScript, HTML, CSS, BootStrap, entre outras.
+                                              </p>
+                                          </center>
+                                          <hr>
+                                          <center>
+                                          <p class="text-left"><strong>Empresa</strong><br>
+                                            Uma StartUp no ramo de Marketing Digital onde tive o prazer de fazer parte por 6 meses.
+                                            <br>
+                                          </center>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <center>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">VOLTAR</button>
+                                          </center>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>    
+                     </div>
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="span3 well">
+                              <center>
+                              <a href="#aboutModal" data-toggle="modal" data-target="#myModal1"><img src="./src/imagens/santacasa.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+                              <h3>Hospital Dom Pedro de Alcântara</h3>
+                              <em>SAIBA MAIS CLICANDO NA IMAGEM ACIMA</em>
+                          </center>
+                          </div>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                          <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+                                          </div>
+                                      <div class="modal-body">
+                                          <center>
+                                          <img src="./src/imagens/santacasa.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                           <br><span><strong>Auxiliar de TI </strong></span>
+                                              <p>Prestar suporte aos funcionários da empresa, auxiliando na criação de novas rotinas para o sistema da mesma.</p>
+                                          </center>
+                                          <hr>
+                                          <center>
+                                          <p class="text-left"><strong>Empresa</strong><br>
+                                             <p>Um hospital de grande porte de iniciativa privada e pública. Tive o prazer de contribuir com a organização durante
+                                                 1 ano e 8 meses.
+                                             </p>
+                                          <br>
+                                          </center>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <center>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">VOLTAR</button>
+                                          </center>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>          
+                  </div>
+                  <div class="carousel-item">
+                      <div class="container">
+                          <div class="span3 well">
+                              <center>
+                              <a href="#aboutModal" data-toggle="modal" data-target="#myModal2"><img src="./src/imagens/NAF.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+                              <h3>Núcleo de Apoio Fiscal</h3>
+                              <em>SAIBA MAIS CLICANDO NA IMAGEM ACIMA</em>
+                          </center>
+                          </div>
+                          <!-- Modal -->
+                          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                          <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+                                          </div>
+                                      <div class="modal-body">
+                                          <center>
+                                          <img src="./src/imagens/NAF.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                          <h3 class="media-heading">Núcleo de Apoio Fiscal</h3>
+                                          <span><strong>Desenvolvedor Web FullStack</strong></span>
 
-            </div>
-            <div class="trabalho">
-              
-            </div>
-            <div class="trabalho">
-              
-            </div>
+                                          <p>Este projeto foi proposto pelo professor da disciplina de Desenvolvimento Web. Entre 5 equipes,
+                                              a nossa foi escolhida como a que entregou o melhor produto. 
+                                              <a target="_blank" id="btn-clique-naf" href="http://rednaf.educacionfiscal.org/noticia/naf-unifacs-feira-de-santana-ba-apresenta-app-de-agendamento-de">Clique para saber mais </a>
+                                          </p>
+                                        </center>
+                                          <hr>
+                                          <center>
+                                          <p class="text-left"><strong>Sobre o projeto</strong><br>
+                                            <p>Utilizamos PHP, Laravel, JavaScript , HTML e CSS para criar um sistema onde usuários podem agendar seus atendimentos
+                                                que serão realizados pelo NAF de Feira de Santana - BA.
+                                            </p>
+                                          <br>
+                                          </center>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <center>
+                                          <button type="button" class="btn btn-primary" data-dismiss="modal">VOLTAR</button>
+                                          </center>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>            
+                   </div>
+                </div>
+              </div>
         </div>
-     
+      
     </section>
 
     <section class="container-espero d-flex justify-content-between align-items-center">
@@ -141,14 +290,18 @@
         <div class="container-redes-sociais">
             <h4>Ou, se preferir, nas minhas redes sociais</h4>
             <div class="redes-sociais">
-              <a href=""><img src="./src/imagens/whatsapp.svg" alt=""></a>
-              <a href=""><img id="insta" src="./src/imagens/instagram.svg" alt=""></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=5575992129708"><img src="./src/imagens/whatsapp.svg" alt=""></a>
+              <a target="_blank" href="https://www.instagram.com/gabrielribeiro08/"><img id="insta" src="./src/imagens/instagram.svg" alt=""></a>
             </div>
         </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

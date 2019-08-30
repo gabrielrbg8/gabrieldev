@@ -1,0 +1,406 @@
+#menu-web{
+    background-image: url(../imagens/banner-pagina2.jpg);
+}
+
+.logomarca-desk h1{
+    color: white;
+}
+
+.item-menuprincipal li{
+    color: white;
+}
+
+
+
+.banner1-texto {
+    text-align: center;
+   position: absolute;
+   top: 25%;
+  
+}
+.banner1-texto h3{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn-border-radius{
+    background: #0FC8AF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width:200px;
+    border-radius: 8px;
+    font-size: 23px;
+    height: 70px;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+}
+
+.btn-border-radius-janela{
+    background: #0FC8AF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width:200px;
+    border-radius: 8px;
+    font-size: 23px;
+    height: 70px;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+}
+.btn-border-radius:hover{
+    opacity: 1;
+    background: rgb(6, 136, 119);
+    color: #f1ecec;
+}
+.btn-border-radius-janela:hover{
+    opacity: 1;
+    background: rgb(6, 136, 119);
+    color: #f1ecec;
+}
+
+.span-makego{
+    color: red;
+    font-weight: bold;
+}
+
+.container-experimente7{
+    background: #FCFCFC;
+}
+
+.experimente7 p{
+   color: #ABABAB;
+   text-align: center;
+   font-size: 25px;
+   margin-top: 2%;
+}
+
+.btn-experimente7{
+    background: #0FC8AF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    border-radius: 3px;
+    font-size: 20px;
+    height: 60px;
+    margin-bottom: 3%;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+   
+}
+
+.btn-experimente7:hover{
+    opacity: 1;
+    background: rgb(6, 136, 119);
+    color: #f1ecec;
+}
+
+.titulo-quantos-perfis{
+    margin-top: 5%;
+}
+
+#qtd-perfis{
+    font-size: 120px;
+    font-weight: bold;
+
+}
+
+.quantos-perfis a:hover{
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+#icone-prev{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#icone-next{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.text-semestral{
+    text-align: center;
+}
+.text-semestral h4{
+    font-size: 20px;
+}
+
+.selecionar-periodo div{
+    margin: 5%;
+}
+
+.btn-mensal{
+    background: #0FC8AF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    height: 60px;
+    margin-bottom: 3%;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+}
+
+
+.btn-mensal:hover{
+opacity: 1;
+background: rgb(6, 136, 119);
+color: #f1ecec;
+}
+
+.btn-anual{
+    background: #0FC8AF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 350px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    height: 60px;
+    margin-bottom: 3%;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+}
+
+.btn-anual:hover{
+    opacity: 1;
+    background: rgb(6, 136, 119);
+    color: #f1ecec;
+    }
+
+.container-dos-precos{
+    text-align: center;
+    border: 2px solid #0FC8AF;
+    width: 580px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    padding: 5%;
+}
+
+.container-dos-precos h3{
+    font-size: 40px;
+}
+
+.container-do-botao{
+    background: #0FC8AF;
+    width: 580px;
+    border: 1px solid #0FC8AF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    height: 60px;
+    padding: 2%;
+}
+
+.btn-compreagora{
+    color: white;
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    height: 60px;
+    margin-bottom: 3%;
+    transition:all 0.5s ease;
+    opacity: 0.9;
+}
+
+
+.btn-compreagora:hover{
+    font-weight: bold;
+    opacity: 1;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    color: #f1ecec;
+}
+
+#bg-cinza{
+    background: #F5F5F5;
+}
+
+.nome-plano{
+    margin: 0 2%;
+}
+.container-servicos{
+    padding-top: 5%;
+    margin: 0 13%;
+}
+
+.servicos h2{
+    font-size: 20px;
+    padding: 2%;
+}
+
+.servicos{
+    padding: 10px 0;
+    border-radius:  5px;
+}
+
+.article-comentarios{
+    margin-top: 5%;
+}
+.container-comentario{
+    border: 10px solid;
+    border-radius: 10px;
+    border-color:#858282;
+    border-width: 1px;
+    border: none;
+    box-shadow: 0px 0px 5px #a19f9f;
+    padding: 3%;
+    margin: 3%;
+    width: 390px;
+}
+
+.insta-comentario{
+   padding: 3% 10px;
+   
+}
+.insta-comentario h3{
+    font-size: 21px;
+}
+.insta-comentario h5{
+    color: #A2A2A2;
+    font-size:16px;
+}
+
+.img-comentario div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #ABABAB;
+}
+
+.texto-comentario{
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+.coracao-comentario{
+    margin-top: 25%;
+    border-top: 2px solid #ABABAB;
+}
+
+.coracao-comentario img{
+    margin-top: 5%;
+}
+
+@media (min-width: 1888px){
+    .banner1-texto {
+        text-align: center;
+       position: absolute;
+       top: 20%;      
+    }
+
+
+    .container-dos-precos{
+        text-align: center;
+        border: 2px solid #0FC8AF;
+        width: 670px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px;
+        height: 100px;
+        align-items: center;
+        padding: 5%;
+    }
+    
+    .container-dos-precos h3{
+        font-size: 40px;
+    }
+    
+    .container-do-botao{
+        background: #0FC8AF;
+        width: 670px;
+        border: 1px solid #0FC8AF;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        height: 60px;
+        padding: 2%;
+    }
+    
+    .btn-compreagora{
+        color: white;
+        text-align: center;
+        width: 500px;
+        font-size: 20px;
+        height: 60px;
+        margin-bottom: 3%;
+        
+       
+    }
+}
+
+@media (max-width: 740px){
+    #banner1{
+        position: relative;
+    }
+    .banner1-texto h3{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .btn-experimente7{
+        width: 245px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .titulo-quantos-perfis{
+        text-align: center;
+    }
+
+    .selecionar-periodo{
+        flex-wrap: wrap !important;
+    }
+
+    .container-planos{
+        flex-wrap: wrap !important;
+    }
+
+    .btn-mensal{
+        border-top-left-radius: 0px;
+    }
+
+    .btn-anual{
+        border-top-right-radius: 0px;
+    }
+    
+    .container-dos-precos{
+        width: 100%;
+    }
+
+    .nome-plano{
+        margin-top: 5%;
+    }
+
+    .container-do-botao{
+        width: 100%;
+    }
+    
+
+    .btn-compreagora{
+        font-size: 17px;
+    }
+
+    .titulo-comentarios{
+        text-align: center;
+    }
+
+    .pai-container-comentarios {
+        flex-wrap: wrap !important;
+    }
+    
+
+
+}
+

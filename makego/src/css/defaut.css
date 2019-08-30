@@ -1,0 +1,325 @@
+ul li{
+    list-style-type: none;
+}
+
+.footer-mobile{
+    display: none !important;
+}
+a:link{
+    text-decoration: none !important;
+}
+
+.container-menumobile{
+    display: none !important;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: white;
+}
+
+.container-menu{
+    
+    flex: 1;
+    margin: 0;
+    height: 120px;
+    padding: 0 90px;
+    position: absolute;
+    top: 0;
+    
+   
+}
+.container-menumobile{
+    display: none !important;
+}
+
+.ul-menuprincipal{
+    height: 100%;
+ 
+}
+.listamenu{
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.item-menuprincipal{ 
+    font-family: 'Lato', sans-serif;
+    color: black;
+    width: 140px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 2%;
+   
+}
+
+.item-menuprincipal li{
+    margin: 20% 0;
+}
+
+/*EFEITOS */
+
+.item-menuprincipal:hover{
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn-border-radius:hover{
+    opacity: 1;
+    background: rgb(6, 136, 119);
+    color: #f1ecec;
+}
+
+/*EFEITOS */
+
+.logomarca-desk a{
+   color: black;
+}
+.logomarca-desk{
+    margin-top: 3%;
+}
+
+#experimente-gratis{
+    background: #0FC8AF;
+    color: white;
+}
+#experimente-gratis li{
+    color: white;
+    font-weight: bold;
+}
+
+#experimente-gratis:hover{
+    background: red;
+}
+
+.form-input{
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    background: #F6F4F4;
+    padding: 3%;
+}
+
+#form-nome{
+    width: 70%;
+   
+}
+
+#form-email-tel{
+    width: 34.4%;
+}
+
+#form-mensagem{
+    width: 70%;
+    height: 100px;
+}
+
+
+
+.paidetodos{
+    margin-top: 5%;
+}
+
+.footer{
+    margin-top: 10%;
+    margin-top: 10%;
+    background-image: url(../imagens/img-footer.jpg);
+    width: 100%;
+    height: 1280px;
+    background-repeat: no-repeat;
+
+}
+
+@media (min-width: 1880px){
+    .container-menu{
+    
+        flex: 1;
+        margin: 0;
+        height: 120px;
+        padding: 0 90px;
+        position: absolute;
+        top: 0;
+        
+       
+    }
+    .container-menumobile{
+        display: none !important;
+    }
+    
+    .ul-menuprincipal{
+        height: 100%;
+     
+    }
+    .listamenu{
+        
+        margin: 0 auto;
+        padding: 0 0;
+    }
+    
+    .item-menuprincipal{ 
+        font-family: 'Lato', sans-serif;
+        color: black;
+        width: 18%;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 2%;
+      
+    }
+    
+    .item-menuprincipal li{
+        margin: 10% 0;
+    }
+    
+    
+    
+    #experimente-gratis{
+        background: #0FC8AF;
+    }
+    #experimente-gratis li{
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+@media (max-width: 740px){
+
+    .container-menumobile{
+        display: flex !important;
+    }
+
+    .logomarca-mobile{
+        margin:5% 6%;
+    }
+    /* Important styles */
+#toggle {
+    display: block;
+    width: 28px;
+    height: 30px;
+    margin: 30px auto 10px;
+  }
+  
+  #toggle span:after,
+  #toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+  }
+  #toggle span:after{
+    top: 9px;
+  }
+  #toggle span {
+    position: relative;
+    display: block;
+  }
+  
+  #toggle span,
+  #toggle span:after,
+  #toggle span:before {
+    width: 100%;
+    height: 5px;
+    background-color: #0FC8AF;
+    transition: all .5s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+  }
+  
+  /* on activation */
+  #toggle.on span {
+    background-color: transparent;
+  }
+  #toggle.on span:before {
+    background-color: red;
+
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  #toggle.on span:after {
+    background-color: red;
+
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+  #toggle.on + #menu {
+    opacity: 1;
+    display: block;
+    transition: all ease-in 2s;
+  }
+  
+  /* menu appearance*/
+  #menu {
+    position: relative;
+    color: #0FC8AF;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.05);
+    /* just for this demo */
+    opacity: 0;
+    display: none;
+    transition: all ease-in 2s;
+  }
+  #menu:after {
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+  }
+  ul, li, li a {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    padding: 5px;
+    color: #0FC8AF;
+    text-decoration: none;
+    transition: all .2s;
+  }
+  li a:hover,
+  li a:focus {
+    background: red;
+    color: #fff;
+  }
+  
+  
+
+    .footer{
+        display: none !important;
+    }
+
+    #menu-web{
+        display: none !important;
+    }
+
+    .pai-container-form{
+        width: 100% !important;
+    }
+
+    #form-email-tel {
+        width: 69.4%;
+    }
+
+    .footer-mobile{
+        margin-top: 10%;
+        width: 100%;
+        height: 300px;
+        display: block !important;
+        background-image: url(../imagens/img-footer.jpg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    
+    }
+}

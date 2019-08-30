@@ -1,0 +1,436 @@
+.redes-sociais-mobile{
+    display: none !important;
+}
+
+.titulo-redes-sociais-mobile{
+    display: none !important;
+}
+
+.container-banner1{
+    margin-top: 5%;
+}
+
+.texto-banner1 p{
+    font-size: 25px;
+    margin-right: 49%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.texto-banner1{
+    position: absolute;
+    left: 3%;
+    top:40%;
+}
+.btn-border-radius{
+    background: #0FC8AF;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width:200px;
+    border-radius: 8px;
+    font-size: 23px;
+    position: absolute;
+    left: 4%;
+    top: 60%;
+    height: 70px;
+}
+
+
+.container-imagem-banner1{
+    margin-left: 20%;
+}
+
+.redes-sociais-banner1{
+    position: absolute;
+    right: 1%;
+    top: 70%;
+}
+
+.redes-sociais-banner1 img{
+    width: 60px;
+    height: 50px;
+    padding: 0 1%;
+}
+
+.texto2-banner1{
+    position: absolute;
+    right: 8%;
+    top: 54%;
+}
+
+.texto2-banner1 p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+.secao2{
+    margin-top: 12%;
+    margin-left:  5%;
+    margin-right: 5%;
+}
+.coluna1-secao2 h3{
+    font-size: 35px;
+    padding-right: 10%;
+
+}
+
+.lista-planos h2{
+    padding-left: 10px;
+    font-size: 25px;
+    color: rgb(39, 38, 38);
+    text-align: left;
+    line-height: 40px;
+}
+
+.icones-secao2 h4{
+    padding: 15%;
+    font-size: 30px;
+}
+
+/*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+
+
+
+.container-janela-menor{
+    background: #E2E2E2;
+    border: 10px solid;
+    border-radius: 7px;
+    border-color:#858282;
+    border-width: 1px;
+    border: none;
+    box-shadow: 0px 0px 5px #a19f9f;
+    height: 300px;
+    width: 400px;
+}
+/*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+
+
+
+
+/* DA DIREITA PARA A ESQUERDA*/
+.secao3{
+    margin-top: 12%;
+    margin-left:  5%;
+    margin-right: 5%;
+}
+.coluna2-secao3{
+    margin-right: 5%;
+}
+.coluna1-secao3 h3{
+    font-size: 35px;
+}
+
+.coluna1-secao3 p{
+    padding-right: 0%;
+    font-size: 35px;
+    text-align: justify;
+    color: #9A9A9A;
+}
+
+.icones-secao3 h4{
+    padding: 15%;
+    font-size: 30px;
+}
+
+.veja-quem-usa img{
+    height: 50px;
+    margin: 5%;
+}
+
+.titulo-veja-quem-usa{
+    margin-top: 5%;
+}
+
+.article-comentarios{
+    margin-top: 5%;
+}
+.container-comentario{
+    border: 10px solid;
+    border-radius: 10px;
+    border-color:#858282;
+    border-width: 1px;
+    border: none;
+    box-shadow: 0px 0px 5px #a19f9f;
+    padding: 3%;
+    margin: 3%;
+    width: 390px;
+}
+
+.insta-comentario{
+   padding: 3% 10px;
+   
+}
+.insta-comentario h3{
+    font-size: 21px;
+}
+.insta-comentario h5{
+    color: #A2A2A2;
+    font-size:16px;
+}
+
+.img-comentario div{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #ABABAB;
+}
+
+.texto-comentario{
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+.coracao-comentario{
+    margin-top: 25%;
+    border-top: 2px solid #ABABAB;
+}
+
+.coracao-comentario img{
+    margin-top: 5%;
+}
+
+@media (min-width: 1888px){
+
+    
+
+    .container-banner1{
+        margin-top: 5%;
+    }
+    
+    .texto-banner1 p{
+        font-size: 31px;
+        margin-right: 40%;
+        margin-left: 2%;
+        font-weight: bold;
+    }
+    
+    .texto-banner1{
+        position: absolute;
+        left: 3%;
+        top:40%;
+    }
+    .btn-border-radius{
+        background: #0FC8AF;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        width:200px;
+        border-radius: 8px;
+        font-size: 23px;
+        position: absolute;
+        left: 4%;
+        top: 60%;
+        height: 70px;
+    }
+    
+    
+    .container-imagem-banner1{
+        margin-left: 20%;
+    }
+    
+    .redes-sociais-banner1{
+        position: absolute;
+        right: 7%;
+        top: 55%;
+    }
+    
+    .redes-sociais-banner1 img{
+        width: 80px;
+        height: 70px;
+        padding: 0 1%;
+    }
+    
+    .texto2-banner1{
+        position: absolute;
+        right: 13%;
+        top: 43%;
+    }
+    
+    .texto2-banner1 p{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        
+    }
+    /*DA ESQUERDA PARA A DIREITA*/
+    .secao2{
+        margin-top: 12%;
+        margin-left:  5%;
+        margin-right: 5%;
+    }
+    .coluna1-secao2 h3{
+        font-size: 35px;
+    }
+    
+    .lista-planos h2{
+        padding-left: 10px;
+        font-size: 22px;
+        color: rgb(39, 38, 38);
+        text-align: left;
+    }
+    
+    .icones-secao2 h4{
+        padding: 15%;
+        font-size: 30px;
+    }
+    
+    /*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+    
+ 
+    
+    .container-janela-menor{
+        background: #E2E2E2;
+        border: 10px solid;
+        border-radius: 7px;
+        border-color:#858282;
+        border-width: 1px;
+     
+        border: none;
+        box-shadow: 0px 0px 5px #a19f9f;
+        height: 400px;
+        width: 600px;
+    }
+    /*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*//*MODELO PADRAO DE JANELA MENOR*/
+    
+    
+    
+    
+    /* DA DIREITA PARA A ESQUERDA*/
+    .secao3{
+        margin-top: 12%;
+        margin-left:  5%;
+        margin-right: 5%;
+    }
+    .coluna1-secao3{
+        margin-left: 15%;
+    }
+    .coluna1-secao3 h3{
+        font-size: 35px;
+    }
+    
+    .coluna1-secao3 p{
+        padding-right: 0%;
+        font-size: 35px;
+        text-align: justify;
+        color: #9A9A9A;
+    }
+    
+    .icones-secao3 h4{
+        padding: 15%;
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 740px){
+    .titulo-redes-sociais-mobile{
+        display: flex !important;
+        margin-top: 15%;
+    }
+
+    .redes-sociais-mobile{
+        display: flex !important;
+    }
+
+    .redes-sociais-mobile img{
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .container-banner1{
+        flex-wrap: wrap !important;
+    }
+    .container-imagem-banner1{
+        margin-left: 0;
+        
+    }
+    .btn-border-radius{
+        border-radius: 0;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .texto-banner1{
+        position: static;
+        justify-content: center;
+    }
+
+    .btn-border-radius{
+        position: static;
+    }
+    .texto-banner1 p {
+        font-size: 21px;
+         margin-right: 0%;
+        margin-left: 0%;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .texto2-banner1{
+        display: none !important;
+    }
+
+    .redes-sociais-banner1{
+        display: none !important;
+    }
+
+    .coluna1-secao2 h3 {
+        font-size: 22px;
+        padding-right: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .coluna1-secao3 h3 {
+        font-size: 22px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .lista-planos h2 {
+        padding-left: 10px;
+        font-size: 18px;
+        color: rgb(39, 38, 38);
+        text-align: left;
+    }
+
+    .conteudo-secao2{
+        justify-content: center !important;
+
+        flex-wrap: wrap !important;
+    }
+
+    .conteudo-secao3{
+        justify-content: center !important;
+
+        flex-wrap: wrap-reverse !important;
+
+    }
+
+    .coluna2-secao3 {
+        margin-right: 0;
+        
+    }
+
+    .veja-quem-usa{
+        flex-wrap: wrap !important;
+    }
+
+    .titulo-comentarios{
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .pai-container-comentario{
+        flex-wrap: wrap !important;
+    }
+
+    .container-comentario{
+        width: 100%;
+    }
+}

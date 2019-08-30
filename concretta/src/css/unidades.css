@@ -1,0 +1,191 @@
+.banner1{
+    width: 100%;
+    height: 480px;
+    background-image: url(../imagens/banner-unidades.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;    
+}
+
+.container-pesquisa{
+    margin-top: 5%;
+}
+
+#input-regiao{
+    margin-top: 1%;
+    width: 900px;
+    border-radius: 80px;
+    border: 1px solid #707070;
+    padding: 20px;
+    height:80px;                                               /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */
+	background-repeat:no-repeat; 
+    background-image: url(../imagens/bg-pesquisa.jpg);
+    background-size: 155px 70px;
+    background-position: 99%;
+}
+.bg-unidade{
+    background-image: url(../imagens/bg-unidades.jpg);
+    height: 600px;
+    width: 100%;
+}
+.bg-unidade-pequeno{
+    background-image: url(../imagens/bg-unidades.jpg);
+    width: 100%;
+    background-size: 100% 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.unidade{
+    margin: 5% 1% 0 1%;;
+    box-shadow: 0 0px 10px 6px #a19f9f;
+    border-radius: 20px;
+}
+
+.header-unidade{
+    background: #F6032E;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+
+}
+.img-unidade{
+    height: 300px;
+    background: #f1efef;
+}
+.embaixo-img-unidades{
+    padding: 0 5%;
+     background: #fffefe;
+}
+
+.embaixo-img-unidades h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 5% 0;
+    margin: 0;
+}
+
+#cidade-unidades{
+    padding-bottom: 5%;
+    border-bottom: 1px solid #F22500 !important;
+}
+.container-btn-unidade{
+    padding-bottom: 5%;
+    background: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.container-btn-unidade div a{
+    font-weight: 100;
+}
+.btn-verde {
+    background:#1BB253;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.btn-verde a{
+    font-size: 15px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+}
+.container-btn-vermais {
+    margin-top: 60%;
+}
+
+.container-btn-vermais div a{
+    font-weight: 100;
+}
+
+.btn-vermelho {
+    background:linear-gradient( #F22500, #F31B0E, #F6032E);
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.btn-vermelho a{
+    font-size: 15px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+}
+
+.titulo-comentarios{
+    padding-top: 5%;
+}
+@media (min-width: 1888px){
+    .banner1{
+        width: 100%;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: 100% 680px;    
+    }
+    .container-btn-vermais{
+        margin-top: 45%;
+    }
+    
+}
+
+@media (max-width: 745px){
+    .banner1{
+        height: 150px;
+    }
+
+    .conteudo-unidades{
+        flex-wrap: wrap;
+    }
+    .bg-unidade{
+        background: none;
+        height: auto;
+        background-attachment: scroll;
+    }
+    .bg-unidade-pequeno{
+        background: none;
+    }
+  
+    #img-comentario {
+        margin: 0;
+    }
+
+    #input-regiao{
+        margin-top: 1%;
+        width:70%;
+        border-radius: 80px;
+        border: 1px solid #707070;
+        padding: 20px;
+        height:50px;                                               /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */
+        background-repeat:no-repeat; 
+        background-image: url(../imagens/bg-pesquisa.jpg);
+        background-size: 50px 40px;
+        background-position: 98%;
+    }
+    .unidade{
+        width: 70%;
+    }
+    .header-unidade{
+        width: 100%;
+    }
+    .unidade img{
+        width: 100%;
+        height: 150px;
+    }
+    .embaixo-img-unidades h3{
+        font-size: 18px;
+    }
+    .container-pesquisa h3{
+        text-align: center;
+    }
+    .container-btn-vermais {
+        margin-top: 5%;
+    }
+    
+}
